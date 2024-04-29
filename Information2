@@ -1,0 +1,56 @@
+A. Arithmetic Operators**
+Addition (+): Adds two operands. Example: x + y
+Subtraction (-): Subtracts the right operand from the left operand. Example: x - y
+Multiplication (*): Multiplies two operands. Example: x * y
+Division (/): Divides the left operand by the right operand. Example: x / y
+Modulus (%): Returns the remainder when the left operand is divided by the right operand. Example: x % y
+Exponentiation (**): Raises the left operand to the power of the right operand. Example: x ** y
+Floor Division (//): Divides and returns the integer part of the quotient. Ignores the digits after the decimal point. Example: x // y
+B. Comparison Operators
+Equal (==): True if both operands are equal. Example: x == y **Note that a single equal sign (=) is used in Python to assign a value to a variable: x = 3
+Not Equal (!=): True if operands are not equal. Example: x != y
+Greater than (>): True if the left operand is greater than the right operand. Example: x > y
+Less than (<): True if the left operand is less than the right operand. Example: x < y
+Greater than or equal to (>=): True if the left operand is greater than or equal to the right operand. Example: x >= y
+Less than or equal to (<=): True if the left operand is less than or equal to the right operand. Example: x <= y
+C. Logical Operators
+And (and): True if both operands are true. Example: x and y
+Or (or): True if either of the operands is true. Example: x or y
+Not (not): True if the operand is false (complements the operand). Example: not x
+
+2. Creating Variables
+To create a variable in Python, you just need to assign a value to a name:
+
+x = 5
+y = "Hello, World!"
+
+print(x)
+print(y)
+Here, x is a variable of type int, and y is a variable of type str (string).
+
+3. Variable Types
+Python has various data types including:
+
+Integers (int): Whole numbers like 3, 300, -219.
+Floating Point (float): Numbers with a decimal point like 2.3, 3.14, -0.001.
+Strings (str): Ordered sequence of characters like "Hello", "World123", "Python!".
+Boolean (bool): Represents True or False.
+
+Defining a Function
+In Python, you define a function using the def keyword, followed by the function name, parentheses (), and a colon :. The indented block of code following the colon is what is executed when the function is called.
+
+Syntax:
+
+def function_name(parameters):
+    # code to execute
+    return result  # optional
+Function Name: Should be descriptive and follow the same naming conventions as variables.
+Parameters (optional): Variables passed into the function. They are optional; a function may have none.
+Return Statement (optional): A function can return data as a result.
+Example of a Function
+
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)
